@@ -1,3 +1,4 @@
 pickleshare==0.7.5
 sklearn==0.0
 streamlit-aggrid==1.0.5
+xgboost==2.1.3
