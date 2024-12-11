@@ -87,7 +87,7 @@ if st.session_state.predict_triggered:
 
         # Encode inputs
         # Load dataset for college and branch details
-        df = pd.read_excel("D:\\sadique\\pythonProject\\output\\allot_college_branch_ds.xlsx")
+        df = pd.read_excel("allot_college_branch_ds.xlsx")
 
         # Encode college, branch, and community codes
         college_encoder = LabelEncoder()
